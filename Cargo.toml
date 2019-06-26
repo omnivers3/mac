@@ -1,0 +1,19 @@
+[package]
+name = "mac"
+version = "0.1.0"
+license = "MIT/Apache-2.0"
+homepage = "https://github.com/omnivers3/mac"
+repository = "https://github.com/omnivers3/mac"
+description = "Library for working with MAC Addresses"
+keywords = ["networking", "datalink", "ethernet"]
+categories = ["network-programming"]
+
+[dependencies]
+serde = { version = "~1" }
+
+[dev-dependencies]
+serde_test = "~1"
+
+[package.metadata.docs.rs]
+# Enable the serde feature when generating docs on docs.rs, so the traits are visible
+features = ["serde"]
