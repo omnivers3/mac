@@ -1,4 +1,4 @@
-#![feature(try_from)]
+// #![feature(try_from)]
 
 //! 'mac' provides a common structure for, surprisingly,
 //! Mac Addresses across cooperating network libraries.
